@@ -18,7 +18,8 @@
 
 のclickにより  
 button要素内のテキストnodeである「alert ： jquery」を  
-alert出力するJavaScriptサンプルを作成してください
+alert出力するJavaScriptサンプルを作成してください  
+コードはjQuery機能に依存してかまいません  
 
 
 # practice01 02
@@ -39,7 +40,8 @@ alert出力するJavaScriptサンプルを作成してください
 
 のclickにより  
 button要素内のテキストnodeである「alert ： native js」を  
-alert出力するJavaScriptサンプルを作成してください
+alert出力するJavaScriptサンプルを作成してください  
+jQueryの機能に依存しないサンプルソースを作成しましょう  
 
 
 # practice01 03
@@ -60,13 +62,15 @@ alert出力するJavaScriptサンプルを作成してください
 
 のclickにより  
 button要素内のテキストnodeである「alert ： es2015」を  
-alert出力するJavaScriptサンプルを作成してください
-script03.jsのどこに追加するべきか
+alert出力するJavaScriptサンプルを作成してください  
+es2015の構文に従って作成してください  
+practice01 02のコードを利用する場合、  
+es2015の構文に置き換えられる箇所をなるべく多く見つけて書き換えましょう  
 
 
 # practice01 04
 
-practice01 04には作業はありません  
+practice01 04にはコードを書く作業はありません  
 ソースコードを確認してそれぞれの違いを確認してください
 
 ### プレビューファイル
