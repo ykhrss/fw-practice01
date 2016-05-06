@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja" ng-app="app">
+
+<head>
+  <meta charset="UTF-8">
+  <title>test</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="content">
+       
+        <h1 class="h1">framework-demo</h1>
+
+        <h2 class="h2">alerts</h2>
+
+        <h3 class="h3">backbone</h3>
+        <p class="button js-button-backbone">
+            <button>alert ： backbone</button>
+        </p>
+
+        <h3 class="h3">knockout</h3>
+        <p class="button js-button-knockout">
+            <button data-bind="click: alertMessage; text: label;">alert ： knockout</button>
+        </p>
+
+        <h3 class="h3">vue</h3>
+        <p id="js-button-vue" class="button js-button">
+            <button v-on:click="alertMessage" v-el:label>alert ： vue</button>
+        </p>
+
+        <h3 class="h3">angular</h3>
+        <p ng-controller="js-button-angular as buttonAngular" class="button js-button-angular">
+            <button ng-click="buttonAngular.alertMessage()" v-el:msg>alert ： angular</button>
+        </p>
+
+        <h3 class="h3">react</h3>
+        <p id="js-button-react" class="button js-button"></p>
+
+        <h3 class="h3">riot</h3>
+        <button-riot></button-riot>
+        
+    </div>
+
+    <!--jquery-->
+    <script src="js/lib/jquery-1.12.2.min.js"></script>
+
+    <!--vue-->
+    <script src="js/lib/vue.min.js"></script>
+    
+    <!--backbone-->
+    <script src="js/lib/underscore-min.js"></script>
+    <script src="js/lib/backbone-min.js"></script>
+
+    <!--knockout-->
+    <script src="js/lib/knockout-3.4.0.js"></script>
+
+    <!--angular-->
+    <script src="js/lib/angular.min.js"></script>
+
+    <!--riot-->
+    <script src="js/lib/riot.min.js"></script>
+
+    <!--react-->
+    <script src="js/lib/react/react.min.js"></script>
+    <script src="js/lib/react/react-dom.min.js"></script>
+    
+    <!--product-->
+    <script src="js/common/script04.js"></script>
+</body>
+
+</html>
