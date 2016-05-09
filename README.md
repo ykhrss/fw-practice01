@@ -97,8 +97,12 @@ practice01 03までと同様の動作を、
 いろいろなJavaScriptフレームワークによって作成したサンプルを用意しました。  
 practice01 03までとのソースコードの差異をよく確認してください。  
 
-practice02では、これらを参考に実際に  
-各フレームワークごとのJavaScriptコードを書いてみましょう。
+
+# practice02の予告
+
+practice02では、practice01を参考にして  
+feed list実装などを題材に  
+実際に各フレームワークごとのJavaScriptサンプルコードを書いてみましょう
 
 
 
