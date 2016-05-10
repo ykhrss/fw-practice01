@@ -1,6 +1,10 @@
 # fw-practice01
 
+自身のGithubアカウントにForkしてトライしてください
+
 # practice01 01
+
+practice0101 のようなブランチを切って練習を開始してください
 
 ### 編集対象ファイル
 
@@ -32,6 +36,8 @@ alert出力するJavaScriptサンプルを作成してください
 
 # practice01 02
 
+practice0102 のようなブランチを切って練習を開始してください
+
 ### 編集対象ファイル
 
 - src/js/common/script02.js
@@ -54,6 +60,8 @@ jQueryの機能に依存しないサンプルソースを作成しましょう
 
 
 # practice01 03
+
+practice0103 のようなブランチを切って練習を開始してください
 
 ### 編集対象ファイル
 
