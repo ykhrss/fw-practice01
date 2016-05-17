@@ -26,7 +26,7 @@
 
   };
 
-  $(doc).on('click', '.js-button-jquery button', function (e) {
+  $('.js-button-jquery').on('click', 'button', function (e) {
     e.preventDefault();
 
     LESSON.alertButtonText($(this));
