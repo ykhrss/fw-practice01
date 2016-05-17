@@ -12,7 +12,7 @@
   /**
    * jquery
    *--------------------------------------------------*/
-  LESSON = {
+  LESSON.dialogBox = {
 
     // アラートを表示する
     alert: function (text) {
@@ -32,7 +32,7 @@
   $('.js-button-jquery').on('click', 'button', function (e) {
     e.preventDefault();
 
-    LESSON.alertButtonText($(this));
+    LESSON.dialogBox.alertButtonText($(this));
   });
 
 })(window.LESSON = window.LESSON || {});
